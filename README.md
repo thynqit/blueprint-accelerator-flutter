@@ -22,7 +22,7 @@
 
 ---
 
-# ⚠️ Usage & Licensing Notice
+## ⚠️ Usage & Licensing Notice
 
 This repository is **public for reference purposes only**.
 
@@ -35,7 +35,7 @@ For collaboration or licensing inquiries, please contact Thynqit at **connect@th
 
 ---
 
-# 📌 Overview
+## 📌 Overview
 
 The **Thynqit Flutter Accelerator** is an enterprise-grade cross-platform mobile blueprint designed to standardize how scalable, maintainable, secure, and production-ready Flutter applications should be architected, structured, developed, tested, and deployed.
 
@@ -54,7 +54,7 @@ Unlike typical starter kits or Flutter boilerplates, this accelerator focuses on
 
 ---
 
-# ⚡ Architecture Snapshot
+## ⚡ Architecture Snapshot
 
 - Architecture: Clean Architecture + Feature-First Modular Architecture
 - Language: Dart
@@ -74,7 +74,7 @@ Unlike typical starter kits or Flutter boilerplates, this accelerator focuses on
 
 ---
 
-# 🎯 Why This Matters
+## 🎯 Why This Matters
 
 Modern Flutter applications fail not because of the framework—but because of inconsistent architecture, fragmented state management, weak modularization, poor scalability planning, and missing operational capabilities.
 
@@ -93,7 +93,7 @@ This accelerator ensures:
 
 ---
 
-# 💼 Business Impact
+## 💼 Business Impact
 
 Using this accelerator delivers measurable outcomes:
 
@@ -114,7 +114,7 @@ Using this accelerator delivers measurable outcomes:
 
 ---
 
-# 🧭 Table of Contents
+## 🧭 Table of Contents
 
 - [Overview](#-overview)
 - [Architecture Snapshot](#-architecture-snapshot)
@@ -154,7 +154,7 @@ Using this accelerator delivers measurable outcomes:
 
 ---
 
-# 🧪 Example Use Cases
+### 🧪 Example Use Cases
 
 - Enterprise Mobile Applications
 - FinTech Mobile Platforms
@@ -169,7 +169,7 @@ Using this accelerator delivers measurable outcomes:
 
 ---
 
-# 🆚 Accelerator vs Traditional Setup
+## 🆚 Accelerator vs Traditional Setup
 
 | Traditional Setup | Thynqit Accelerator | Time / Effort Saved |
 | ----------------- | ------------------- | ------------------- |
@@ -187,7 +187,7 @@ Using this accelerator delivers measurable outcomes:
 
 ---
 
-# 🏢 How Thynqit Uses This
+## 🏢 How Thynqit Uses This
 
 This accelerator is used internally across Thynqit's cross-platform engineering projects to:
 
@@ -202,7 +202,7 @@ This accelerator is used internally across Thynqit's cross-platform engineering 
 
 ---
 
-# 🧱 Core Principles
+## 🧱 Core Principles
 
 It represents the foundational Flutter architectural guidelines that define how scalable, maintainable, secure, and production-ready cross-platform mobile applications should be designed, structured, developed, and evolved across enterprise engineering teams. These principles establish a consistent engineering foundation that standardizes feature modularization, state management, networking, security, observability, offline synchronization, performance optimization, testing, and deployment practices—ensuring that applications remain scalable, reliable, and adaptable as business requirements, engineering complexity, and user scale continue to grow.
 
@@ -223,7 +223,7 @@ It represents the foundational Flutter architectural guidelines that define how 
 
 ---
 
-# 🏢 High-Level Architecture
+## 🏢 High-Level Architecture
 
 High-Level Architecture defines the foundational structural blueprint of the Flutter application by organizing it into clearly separated layers such as presentation, state management, business logic, networking, local storage, and backend integrations. This layered architecture establishes clear boundaries of responsibility, ensuring that each layer can evolve independently without introducing unnecessary coupling, architectural inconsistencies, or maintainability challenges.
 
@@ -282,7 +282,7 @@ flowchart LR
 
 ---
 
-# 🔁 Request Flow
+## 🔁 Request Flow
 
 Request Flow defines the standardized lifecycle of how user interactions, application state changes, local data operations, and backend communication move through the Flutter application—from Widgets to Riverpod providers, business logic layers, repositories, APIs, local storage systems, and back to the user interface as updated application state.
 
@@ -347,7 +347,7 @@ sequenceDiagram
 
 ---
 
-# 🔄 Application Flow
+## 🔄 Application Flow
 
 Application Flow defines the initialization and runtime lifecycle of the Flutter application, outlining how configurations are loaded, dependencies are initialized, Firebase services are configured, authentication state is restored, local storage systems are prepared, networking layers are initialized, and the user interface is rendered into a production-ready state. By standardizing this startup and operational sequence, the accelerator ensures consistent and predictable behavior across multiple environments such as development, QA, UAT, staging, and production.
 
@@ -394,7 +394,7 @@ flowchart TD
 
 ---
 
-# 🧩 System Components
+## 🧩 System Components
 
 ### 🎨 Presentation Layer
 
@@ -454,7 +454,7 @@ flowchart TD
 
 ---
 
-# 🧩 Functional Capabilities
+## 🧩 Functional Capabilities
 
 The accelerator provides a comprehensive set of enterprise-grade Flutter engineering capabilities that establish a scalable, maintainable, secure, and production-ready foundation for modern cross-platform applications.
 
@@ -477,7 +477,7 @@ By standardizing critical engineering concerns such as architecture, state manag
 
 ---
 
-# 🔧 Technology Stack Mapping
+## 🔧 Technology Stack Mapping
 
 The accelerator is built using a carefully selected set of modern, industry-proven Flutter technologies, frameworks, and engineering tools to ensure scalability, performance, maintainability, security, and developer productivity across all layers of the application.
 
@@ -510,7 +510,7 @@ Each technology within the stack is intentionally chosen to support enterprise-g
 
 ---
 
-# 🔐 Authentication Architecture
+## 🔐 Authentication Architecture
 
 Authentication Architecture defines how user identity, session management, access control, token lifecycle handling, and secure application access are managed across the Flutter application.
 
@@ -561,7 +561,7 @@ flowchart LR
 
 ---
 
-# 🧭 Routing Architecture
+## 🧭 Routing Architecture
 
 Routing Architecture defines how application-level navigation, deep linking, feature routing, authentication-aware navigation, and route orchestration are structured across the Flutter application.
 
@@ -604,7 +604,7 @@ flowchart TD
 
 ---
 
-# 🧭 Navigation Architecture
+## 🧭 Navigation Architecture
 
 Navigation Architecture defines how users move throughout the Flutter application using reusable navigation components, adaptive layouts, nested navigation, and platform-aware navigation patterns.
 
@@ -651,7 +651,7 @@ flowchart TD
 
 ---
 
-# 🔥 Firebase Architecture
+## 🔥 Firebase Architecture
 
 Firebase Architecture defines how the Flutter application integrates with Firebase services to enable analytics, crash reporting, remote configuration, push notifications, feature management, application monitoring, and operational visibility.
 
@@ -692,7 +692,7 @@ flowchart LR
 
 ---
 
-# 🌐 Networking Architecture
+## 🌐 Networking Architecture
 
 Networking Architecture defines how the Flutter application communicates with backend services, APIs, and real-time systems while maintaining scalability, reliability, security, and maintainability.
 
@@ -739,7 +739,7 @@ flowchart LR
 
 ---
 
-# 📦 State Management Strategy
+## 📦 State Management Strategy
 
 State Management Strategy defines how application state, UI state, business state, authentication state, and server-side data are managed throughout the Flutter application.
 
@@ -790,7 +790,7 @@ flowchart LR
 
 ---
 
-# 🎨 Widget Architecture
+## 🎨 Widget Architecture
 
 Widget Architecture defines how reusable Flutter widgets, layouts, themes, and interaction patterns are designed, organized, and scaled across the application. The accelerator promotes a widget-driven architecture where UI elements are built as modular, reusable, composable, and testable building blocks, enabling teams to maintain design consistency, accelerate UI development, simplify long-term maintenance, and scale applications across multiple feature modules and platforms.
 
@@ -841,7 +841,7 @@ flowchart TD
 
 ---
 
-# 🎨 Theme & Design System
+## 🎨 Theme & Design System
 
 Theme & Design System defines the visual and interaction foundation of the Flutter application by standardizing colors, typography, spacing, layouts, component styling, animations, and interaction patterns across the entire application.
 
@@ -892,7 +892,7 @@ flowchart TD
 
 ---
 
-# 📱 Offline-First Architecture
+## 📱 Offline-First Architecture
 
 Offline-First Architecture defines how the Flutter application continues to operate reliably under unstable, intermittent, or unavailable network conditions by prioritizing local persistence, resilient synchronization, intelligent caching, and background synchronization.
 
@@ -939,7 +939,7 @@ flowchart LR
 
 ---
 
-# 🔐 Security Architecture
+## 🔐 Security Architecture
 
 The accelerator embeds security as a foundational capability across the application, ensuring that security controls are integrated into every layer of the architecture rather than treated as an afterthought. It establishes a defense-in-depth strategy that protects user data, application integrity, network communication, and backend interactions while enabling secure authentication, authorization, and data storage.
 
@@ -984,7 +984,7 @@ flowchart LR
 
 ---
 
-# 📊 Observability Architecture
+## 📊 Observability Architecture
 
 The accelerator integrates observability as a core engineering capability to provide complete visibility into application behavior, user interactions, runtime performance, and production health. By standardizing logging, analytics, crash reporting, and performance monitoring, engineering teams can proactively identify issues, improve application quality, and make informed operational decisions.
 
@@ -1027,7 +1027,7 @@ flowchart LR
 
 ---
 
-# 🧪 Testing Strategy
+## 🧪 Testing Strategy
 
 The accelerator embeds testing throughout the development lifecycle to ensure application reliability, maintainability, and confidence in every release. Rather than treating testing as a separate activity, it establishes standardized testing practices that validate business logic, user interfaces, integrations, and application workflows across all supported platforms.
 
@@ -1050,7 +1050,7 @@ By combining automated testing with continuous integration, teams can identify r
 
 ---
 
-# 🚢 Deployment Architecture
+## 🚢 Deployment Architecture
 
 The accelerator defines a standardized deployment architecture that automates the journey from source code to production-ready mobile applications. It integrates continuous integration, automated testing, build generation, code signing, artifact management, and application distribution into a repeatable delivery pipeline.
 
@@ -1095,7 +1095,7 @@ flowchart LR
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 The accelerator follows a feature-first, modular project structure designed to promote scalability, maintainability, and clear separation of concerns across enterprise Flutter applications. Each feature encapsulates its own presentation, domain, and data layers, enabling teams to develop, test, and evolve modules independently while maintaining architectural consistency across the application.
 
@@ -1244,7 +1244,7 @@ windows/                          # Windows desktop project
 
 ---
 
-# 🔄 Versioning
+## 🔄 Versioning
 
 Versioning is standardized across the accelerator using Semantic Versioning (SemVer) to provide predictable release management and backward compatibility. Application versioning is coordinated with platform-specific build numbers for Android and iOS while maintaining consistent release practices across all supported platforms.
 
@@ -1259,7 +1259,7 @@ Versioning is standardized across the accelerator using Semantic Versioning (Sem
 
 ---
 
-# 🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 - 🌐 Flutter Web optimization
 - 🖥️ Desktop platform support
@@ -1276,7 +1276,7 @@ Versioning is standardized across the accelerator using Semantic Versioning (Sem
 
 ---
 
-# 👥 Who Should Use Thynqit Accelerator
+## 👥 Who Should Use Thynqit Accelerator
 
 - 🚀 Startups building MVPs and scalable mobile products
 - 🏢 Enterprises modernizing legacy mobile applications
@@ -1287,7 +1287,7 @@ Versioning is standardized across the accelerator using Semantic Versioning (Sem
 
 ---
 
-# 🧠 Engineering Philosophy
+## 🧠 Engineering Philosophy
 
 At Thynqit, we believe:
 
@@ -1304,7 +1304,7 @@ At Thynqit, we believe:
 
 ---
 
-# 📩 Work With Us
+## 📩 Work With Us
 
 Interested in leveraging this accelerator or building scalable cross-platform mobile applications?
 
@@ -1315,7 +1315,7 @@ Thynqit partners with startups, scale-ups, and enterprises to design and deliver
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 This repository is part of **Thynqit's Engineering Accelerators** and is shared publicly for reference, learning, and knowledge sharing purposes.
 
@@ -1332,7 +1332,7 @@ If you're interested in adopting similar engineering standards or partnering wit
 
 ---
 
-# 📜 License
+## 📜 License
 
 This project is licensed under a **Proprietary License (All Rights Reserved)**.
 
